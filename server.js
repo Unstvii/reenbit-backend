@@ -7,8 +7,8 @@ const app = express();
 app.options("*", cors());
 app.use(
   cors({
-    origin: "http://localhost:3000",
-    methods: ["GET", "POST", "DELETE"],
+    origin: "https://reenbit-vitaliy.netlify.app",
+    methods: ["GET", "POST", "DELETE", "PUT"],
     credentials: true,
   })
 );
